@@ -3,6 +3,9 @@ os: linux
 files:
   - source: ./test.txt
     destination: /var/tmp/
+    
+     - source: /test2.txt
+    destination: /var/tmp/
 # hooks:
 #   BeforeInstall:
 #     - location: scripts/install_dependencies
